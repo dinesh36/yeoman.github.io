@@ -33,6 +33,7 @@ Once inside your generator folder, create a `package.json` file. This file is a 
   "files": [
     "generators"
   ],
+  "main":"generators/app/index.js",
   "keywords": ["yeoman-generator"],
   "dependencies": {
     "yeoman-generator": "^1.0.0"
